@@ -7,3 +7,4 @@
 - EDA : slide + (2)
 - Auto environment (khi mở vscode -> auto vào môi trường)
 - Nối code vào github
+- uuid : tại sao không trùng?
