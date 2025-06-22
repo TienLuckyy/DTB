@@ -1,0 +1,33 @@
+ALTER TABLE olist_order_items_dataset
+DROP CONSTRAINT fk_order_id_items;   
+ALTER TABLE olist_order_payments_dataset
+DROP CONSTRAINT fk_order_id_payments;
+ALTER TABLE olist_order_reviews_dataset
+DROP CONSTRAINT fk_order_id_reviews;
+
+CREATE EXTENSION IF NOT EXISTS pgcrypto;
+ALTER TABLE olist_order_items_dataset
+ALTER COLUMN order_id SET DATA TYPE UUID USING order_id::uuid;
+ALTER TABLE olist_order_payments_dataset
+ALTER COLUMN order_id SET DATA TYPE UUID USING order_id::uuid;
+ALTER TABLE olist_order_reviews_dataset
+ALTER COLUMN order_id SET DATA TYPE UUID USING order_id::uuid;
+
+SELECT conname
+FROM pg_constraint
+WHERE conrelid = 'olist_order_payments_dataset'::regclass;
+
+ALTER TABLE olist_order_payments_dataset 
+ADD CONSTRAINT fk_order_id_payments
+FOREIGN KEY (order_id)
+REFERENCES olist_orders_dataset(order_id);
+
+ALTER TABLE olist_orders_dataset
+ALTER COLUMN order_id SET DEFAULT gen_random_uuid();
+
+INSERT INTO olist_orders_dataset (customer_id, order_status, order_purchase_timestamp, order_approved_at, order_delivered_carrier_date, order_delivered_customer_date, order_estimated_delivery_date)
+VALUES (
+    '06b8999e2fba1a1fbc88172c00ba8bc7','delivered','2014-05-16 10:00:00.000','2014-05-16 15:22:12.000','2014-05-23 10:47:57.000','2017-05-25 10:35:35.000','2017-06-05 00:00:00.000'
+);
+
+SELECT * from olist_orders_dataset ood where (customer_id = '06b8999e2fba1a1fbc88172c00ba8bc7')
