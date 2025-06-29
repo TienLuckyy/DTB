@@ -8,7 +8,10 @@
 - Auto environment (khi mở vscode -> auto vào môi trường)
 - Nối code vào github
 - uuid : tại sao không trùng?
+
 5/7/2025
 - sửa link dẫn vào file
 - thêm comment vào các ô và markdown
 - 25%, 50% là gì?
+- sử dụng eda vào payments vào các biến : như nào, ...?
+- extra : tìm hiểu về bố cục slide, cách trình bày
