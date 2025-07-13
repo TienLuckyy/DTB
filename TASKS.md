@@ -9,10 +9,15 @@
 - Nối code vào github
 - uuid : tại sao không trùng? (3)
 
-5/7/2025
-- sửa link dẫn vào file
+13/7/2025
+- sửa link dẫn vào file (done)
 - thêm comment vào các ô và markdown
-- 25%, 50% là gì?
+- 25%, 50% là gì? 
 - sử dụng eda vào payments vào các biến : như nào, ...?
 - extra : tìm hiểu về bố cục slide, cách trình bày
 - (3)
+
+27/7/2025
+- Học cách comment, markdown
+- Áp dụng EDA vào payments
+- rest of 13/07
