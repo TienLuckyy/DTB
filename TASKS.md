@@ -21,3 +21,9 @@
 - Học cách comment, markdown
 - Áp dụng EDA vào payments
 - rest of 13/07
+
+10/08/2025
+- Hoc excel
+- outlier cho tung bien
+- correlation, ap dung vao excel
+- thuyet trình lại về std của value
