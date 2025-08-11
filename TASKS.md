@@ -27,3 +27,12 @@
 - outlier cho tung bien
 - correlation, ap dung vao excel
 - thuyet trình lại về std của value
+
+24/08/25
+- check loi value
+- tinh trung binh gia tri cua credit card
+- another sheet tinh sum, avg, std cua phuong thuc thanh toan
+- khop python tinh toan sum, avg, std voi 100 rows dau tien trong file excel
+- tinh q1,q2,q3 cho tung bien
+- trinh bay ve flash api va minh hoa
+- pivot table cua data frame (xoay hang - cot) theo payment type; tim std, sum, avg
