@@ -34,5 +34,9 @@
 - another sheet tinh sum, avg, std cua phuong thuc thanh toan
 - khop python tinh toan sum, avg, std voi 100 rows dau tien trong file excel
 - tinh q1,q2,q3 cho tung bien
-- trinh bay ve flash api va minh hoa
+- trinh bay ve flash api va minh hoa (4)
 - pivot table cua data frame (xoay hang - cot) theo payment type; tim std, sum, avg
+
+31/07/25
+- pivot excel + python
+- (4)
