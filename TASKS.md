@@ -40,3 +40,8 @@
 31/07/25
 - pivot excel + python
 - (4)
+
+
+14/09/25
+- (4) again
+- tìm 2 bộ data khác (nhẹ hơn) để chạy (Fi.Fraud)
