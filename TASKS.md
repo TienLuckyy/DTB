@@ -45,3 +45,6 @@
 14/09/25
 - (4) again
 - tìm 2 bộ data khác (nhẹ hơn) để chạy (Fi.Fraud)
+- đưa data vào duckdb
+
+  
