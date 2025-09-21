@@ -47,4 +47,9 @@
 - tìm 2 bộ data khác (nhẹ hơn) để chạy (Fi.Fraud)
 - đưa data vào duckdb
 
-  
+13/10/25
+- docs của web
+- app.py ket noi vào database
+- crud vào web đội bóng
+- duckdb
+- 'tại sao lại tách thành 2 web ở 2 port?'
